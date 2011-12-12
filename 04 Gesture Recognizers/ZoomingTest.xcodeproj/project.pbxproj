@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AA8E448148E34D500073964 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA8E447148E34D500073964 /* UIKit.framework */; };
+		2AA8E44A148E34D500073964 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA8E449148E34D500073964 /* Foundation.framework */; };
+		2AA8E44C148E34D500073964 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA8E44B148E34D500073964 /* CoreGraphics.framework */; };
+		2AA8E452148E34D500073964 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2AA8E450148E34D500073964 /* InfoPlist.strings */; };
+		2AA8E455148E34D500073964 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA8E454148E34D500073964 /* main.m */; };
+		2AA8E458148E34D500073964 /* ZoomingTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA8E457148E34D500073964 /* ZoomingTestAppDelegate.m */; };
+		2AA8E45B148E34D500073964 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AA8E459148E34D500073964 /* MainWindow.xib */; };
+		2AA8E45E148E34D500073964 /* ZoomingTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA8E45D148E34D500073964 /* ZoomingTestViewController.m */; };
+		2AA8E461148E34D500073964 /* ZoomingTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AA8E45F148E34D500073964 /* ZoomingTestViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AA8E443148E34D500073964 /* ZoomingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoomingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AA8E447148E34D500073964 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2AA8E449148E34D500073964 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2AA8E44B148E34D500073964 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2AA8E44F148E34D500073964 /* ZoomingTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZoomingTest-Info.plist"; sourceTree = "<group>"; };
+		2AA8E451148E34D500073964 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2AA8E453148E34D500073964 /* ZoomingTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZoomingTest-Prefix.pch"; sourceTree = "<group>"; };
+		2AA8E454148E34D500073964 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AA8E456148E34D500073964 /* ZoomingTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZoomingTestAppDelegate.h; sourceTree = "<group>"; };
+		2AA8E457148E34D500073964 /* ZoomingTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZoomingTestAppDelegate.m; sourceTree = "<group>"; };
+		2AA8E45A148E34D500073964 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		2AA8E45C148E34D500073964 /* ZoomingTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZoomingTestViewController.h; sourceTree = "<group>"; };
+		2AA8E45D148E34D500073964 /* ZoomingTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZoomingTestViewController.m; sourceTree = "<group>"; };
+		2AA8E460148E34D500073964 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZoomingTestViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AA8E440148E34D500073964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA8E448148E34D500073964 /* UIKit.framework in Frameworks */,
+				2AA8E44A148E34D500073964 /* Foundation.framework in Frameworks */,
+				2AA8E44C148E34D500073964 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AA8E438148E34D400073964 = {
+			isa = PBXGroup;
+			children = (
+				2AA8E44D148E34D500073964 /* ZoomingTest */,
+				2AA8E446148E34D500073964 /* Frameworks */,
+				2AA8E444148E34D500073964 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AA8E444148E34D500073964 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AA8E443148E34D500073964 /* ZoomingTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AA8E446148E34D500073964 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AA8E447148E34D500073964 /* UIKit.framework */,
+				2AA8E449148E34D500073964 /* Foundation.framework */,
+				2AA8E44B148E34D500073964 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2AA8E44D148E34D500073964 /* ZoomingTest */ = {
+			isa = PBXGroup;
+			children = (
+				2AA8E456148E34D500073964 /* ZoomingTestAppDelegate.h */,
+				2AA8E457148E34D500073964 /* ZoomingTestAppDelegate.m */,
+				2AA8E459148E34D500073964 /* MainWindow.xib */,
+				2AA8E45C148E34D500073964 /* ZoomingTestViewController.h */,
+				2AA8E45D148E34D500073964 /* ZoomingTestViewController.m */,
+				2AA8E45F148E34D500073964 /* ZoomingTestViewController.xib */,
+				2AA8E44E148E34D500073964 /* Supporting Files */,
+			);
+			path = ZoomingTest;
+			sourceTree = "<group>";
+		};
+		2AA8E44E148E34D500073964 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AA8E44F148E34D500073964 /* ZoomingTest-Info.plist */,
+				2AA8E450148E34D500073964 /* InfoPlist.strings */,
+				2AA8E453148E34D500073964 /* ZoomingTest-Prefix.pch */,
+				2AA8E454148E34D500073964 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AA8E442148E34D500073964 /* ZoomingTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AA8E464148E34D500073964 /* Build configuration list for PBXNativeTarget "ZoomingTest" */;
+			buildPhases = (
+				2AA8E43F148E34D500073964 /* Sources */,
+				2AA8E440148E34D500073964 /* Frameworks */,
+				2AA8E441148E34D500073964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZoomingTest;
+			productName = ZoomingTest;
+			productReference = 2AA8E443148E34D500073964 /* ZoomingTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AA8E43A148E34D400073964 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 2AA8E43D148E34D400073964 /* Build configuration list for PBXProject "ZoomingTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2AA8E438148E34D400073964;
+			productRefGroup = 2AA8E444148E34D500073964 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AA8E442148E34D500073964 /* ZoomingTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AA8E441148E34D500073964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA8E452148E34D500073964 /* InfoPlist.strings in Resources */,
+				2AA8E45B148E34D500073964 /* MainWindow.xib in Resources */,
+				2AA8E461148E34D500073964 /* ZoomingTestViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AA8E43F148E34D500073964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA8E455148E34D500073964 /* main.m in Sources */,
+				2AA8E458148E34D500073964 /* ZoomingTestAppDelegate.m in Sources */,
+				2AA8E45E148E34D500073964 /* ZoomingTestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2AA8E450148E34D500073964 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AA8E451148E34D500073964 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2AA8E459148E34D500073964 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AA8E45A148E34D500073964 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		2AA8E45F148E34D500073964 /* ZoomingTestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AA8E460148E34D500073964 /* en */,
+			);
+			name = ZoomingTestViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AA8E462148E34D500073964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2AA8E463148E34D500073964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		2AA8E465148E34D500073964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZoomingTest/ZoomingTest-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "ZoomingTest/ZoomingTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2AA8E466148E34D500073964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZoomingTest/ZoomingTest-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "ZoomingTest/ZoomingTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AA8E43D148E34D400073964 /* Build configuration list for PBXProject "ZoomingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AA8E462148E34D500073964 /* Debug */,
+				2AA8E463148E34D500073964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AA8E464148E34D500073964 /* Build configuration list for PBXNativeTarget "ZoomingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AA8E465148E34D500073964 /* Debug */,
+				2AA8E466148E34D500073964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AA8E43A148E34D400073964 /* Project object */;
+}
